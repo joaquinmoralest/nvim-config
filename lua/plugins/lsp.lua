@@ -9,7 +9,14 @@ return {
         "typescript-language-server",
         "css-lsp",
         "angular-language-server",
+        "csharp-language-server",
       })
     end,
+  },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
   },
 }
